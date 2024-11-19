@@ -17,6 +17,8 @@ while True:
         cv2.putText(frame, name,(x1, y1 - 10), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 0), 2)
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 4)
 
+        # print(face_loc)
+
     cv2.imshow("FameFrame", frame)
 
     key = cv2.waitKey(1)
